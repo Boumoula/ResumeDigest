@@ -1,6 +1,6 @@
-# CVDigest: NLP-Powered Resume Analysis Tool
+# ResumeDigest: NLP-Powered Resume Analysis Tool
 
-CVDigest is a tool designed for HR professionals to automate the extraction of relevant information from resume (CV) files in PDF format. It uses a Named Entity Recognition (NER) model based on Transformer architectures to identify and extract structured data from unstructured documents.
+ResumeDigest is a tool designed for HR professionals to automate the extraction of relevant information from resume (CV) files in PDF format. It uses a Named Entity Recognition (NER) model based on Transformer architectures to identify and extract structured data from unstructured documents.
 
 ## Features
 
