@@ -1,0 +1,143 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.8.7,<3.9.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"4b65aa7",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "AWARDS",
+      "CERTIFICATION",
+      "COLLEGE NAME",
+      "COMPANIES WORKED AT",
+      "DEGREE",
+      "DESIGNATION",
+      "EMAIL ADDRESS",
+      "LANGUAGE",
+      "LINKEDIN LINK",
+      "LOCATION",
+      "NAME",
+      "SKILLS",
+      "UNIVERSITY",
+      "Unlabelled",
+      "WORKED AS",
+      "YEAR OF GRADUATION",
+      "YEARS OF EXPERIENCE"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.6887431231,
+    "ents_p":0.7260762882,
+    "ents_r":0.6550613806,
+    "ents_per_type":{
+      "LINKEDIN LINK":{
+        "p":0.9756097561,
+        "r":0.9803921569,
+        "f":0.97799511
+      },
+      "SKILLS":{
+        "p":0.6405867971,
+        "r":0.5934314836,
+        "f":0.6161081717
+      },
+      "WORKED AS":{
+        "p":0.6674157303,
+        "r":0.7004716981,
+        "f":0.6835443038
+      },
+      "NAME":{
+        "p":0.7846153846,
+        "r":0.255,
+        "f":0.3849056604
+      },
+      "LOCATION":{
+        "p":0.7911392405,
+        "r":0.6793478261,
+        "f":0.730994152
+      },
+      "COMPANIES WORKED AT":{
+        "p":0.7213352685,
+        "r":0.6798905609,
+        "f":0.7
+      },
+      "YEARS OF EXPERIENCE":{
+        "p":0.9219687875,
+        "r":0.9721518987,
+        "f":0.9463955638
+      },
+      "UNIVERSITY":{
+        "p":0.7101449275,
+        "r":0.6363636364,
+        "f":0.6712328767
+      },
+      "DEGREE":{
+        "p":0.6944444444,
+        "r":0.5859375,
+        "f":0.6355932203
+      },
+      "COLLEGE NAME":{
+        "p":0.5058823529,
+        "r":0.3944954128,
+        "f":0.4432989691
+      },
+      "CERTIFICATION":{
+        "p":0.3744292237,
+        "r":0.2492401216,
+        "f":0.299270073
+      },
+      "YEAR OF GRADUATION":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "LANGUAGE":{
+        "p":0.7454545455,
+        "r":0.679558011,
+        "f":0.710982659
+      },
+      "AWARDS":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "EMAIL ADDRESS":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Unlabelled":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      }
+    },
+    "tok2vec_loss":20155.5769176483,
+    "ner_loss":17163.833984375
+  }
+}
